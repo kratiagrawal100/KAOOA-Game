@@ -1,0 +1,44 @@
+10-10-2022T18:18:26 Game started turn set to crow
+,10-10-2022T18:18:29 crow1 moving
+,10-10-2022T18:18:30 Dragging crow1 from crowdiv to circle5
+,10-10-2022T18:18:30 turn of vulture
+,10-10-2022T18:18:31 vulture1 moving
+,10-10-2022T18:18:32 Dragging vulture1 from vulturediv to circle3
+,10-10-2022T18:18:32 turn of crow
+,10-10-2022T18:18:34 crow2 moving
+,10-10-2022T18:18:34 Dragging crow2 from crowdiv to circle8
+,10-10-2022T18:18:34 turn of vulture
+,10-10-2022T18:18:35 vulture1 moving
+,10-10-2022T18:18:36 Dragging vulture1 from circle3 to circle9
+,10-10-2022T18:18:36 checking for valid move
+,10-10-2022T18:18:36 turn of crow
+,10-10-2022T18:18:38 crow3 moving
+,10-10-2022T18:18:38 Dragging crow3 from crowdiv to circle8
+,10-10-2022T18:18:38 turn of vulture
+,10-10-2022T18:18:40 vulture1 moving
+,10-10-2022T18:18:40 Dragging vulture1 from circle9 to circle3
+,10-10-2022T18:18:40 checking for valid move
+,10-10-2022T18:18:40 turn of crow
+,10-10-2022T18:18:42 crow4 moving
+,10-10-2022T18:18:42 Dragging crow4 from crowdiv to circle2
+,10-10-2022T18:18:42 turn of vulture
+,10-10-2022T18:18:44 vulture1 moving
+,10-10-2022T18:18:44 Dragging vulture1 from circle3 to circle8
+,10-10-2022T18:18:44 checking for valid move
+,10-10-2022T18:18:44 turn of crow
+,10-10-2022T18:18:45 crow5 moving
+,10-10-2022T18:18:46 Dragging crow5 from crowdiv to circle3
+,10-10-2022T18:18:46 turn of vulture
+,10-10-2022T18:18:47 vulture1 moving
+,10-10-2022T18:18:48 Dragging vulture1 from circle8 to circle1
+,10-10-2022T18:18:48 checking for valid move
+,10-10-2022T18:18:48 turn of crow
+,10-10-2022T18:18:49 crow6 moving
+,10-10-2022T18:18:50 Dragging crow6 from crowdiv to circle3
+,10-10-2022T18:18:50 turn of vulture
+,10-10-2022T18:18:51 vulture1 moving
+,10-10-2022T18:18:51 Dragging vulture1 from circle1 to circle7
+,10-10-2022T18:18:51 checking for valid move
+,10-10-2022T18:18:51 vulture win
+,10-10-2022T18:18:51 turn of crow
+,10-10-2022T18:18:55 Reset Clicked

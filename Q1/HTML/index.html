@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script> -->
+
+    <style>
+        #container {
+            background-color: orange;
+            height: 100vh;
+            border: 1px solid green;
+        }
+
+        #board {
+            /* background-color: white; */
+            background: linear-gradient(lightgreen, lightblue);
+            border: 1px solid red;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            height: 80vh;
+            width: 80vh;
+        }
+
+        #turn {
+            border: 1px solid brown;
+            height: 50px;
+            width: 740px;
+            margin-left: 30%;
+            margin-top: 1%;
+        }
+
+        button {
+            margin-top: 2%;
+            float: right;
+            margin-right: 2%;
+        }
+
+        /* canvas{
+            height:80vh;
+            width:80vh;
+            border:1px solid green;
+        } */
+
+        /* #crow{
+            border:3px solid blue;
+            height:7vh;
+            width:7vh;
+            position:absolute;
+            background-color: skyblue;
+            top: 50%;
+            left: 90%;
+            border-radius: 50%;
+
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- Include the Bootstrap 4 theme -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+    <div id="container">
+        <div id="board">
+            <!-- <svg id="canvas" width="774" height="774">
+                <path style="fill:none;stroke:black;visibility:false" ></path>
+              </svg> -->
+              <canvas id="mycanvas" width="774" height="774"></canvas>
+        </div>
+        <div id="dead"
+            style="border:1px solid green;background-color:tomato;margin-top:2%;height:50px;width:30%;margin-left:35%;visibility: hidden;">
+
+        </div>
+        <div>
+            <button type="button" class="btn btn-danger" onclick="reset()">Reset</button>
+            <button type="button" class="btn btn-success" onclick="start()">Start</button>
+
+        </div>
+    </div>
+
+    <script src="../JS/drawlines.js"></script>
+    <script src="../JS/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+</body>
+
+</html>
